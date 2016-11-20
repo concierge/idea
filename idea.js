@@ -1,4 +1,4 @@
-var request = require.safe('request');
+var request = require('request');
 
 exports.idea = function (callback) {
     request.get('http://itsthisforthat.com/api.php?json', function(error, response, body) {
